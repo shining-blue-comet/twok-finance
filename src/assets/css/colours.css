@@ -1,0 +1,6 @@
+:root {--black: 0,0,0;}                 /*///// Black (#000000) //////////////////*/
+:root {--white: 255,255,255;}           /*///// White (#ffffff) //////////////////*/
+
+:root {--primary: 255, 255, 255;}         /*///// PRIMARY (#B2C0DC) ////////////////*/
+:root {--primary-light: 212, 212, 212;}   /*///// PRIMARY LIGHT (#C3D0EC) //////////*/
+:root {--secondary: 39,39,39;}          /*///// SECONDARY (#272727) //////////////*/

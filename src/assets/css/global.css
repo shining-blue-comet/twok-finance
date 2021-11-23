@@ -1,0 +1,303 @@
+/*/////////////////////////////////*/
+/*/////////// DEFAULTS ////////////*/
+/*/////////////////////////////////*/
+
+html {font-size: 13px; background-color: #000;}
+@media (min-width: 1450px){  html {font-size: 14px;}  }
+@media (max-width: 600px){  html {font-size: 12px;}  }
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'ChicagoFLF',sans-serif !important;
+    background-image: url('../images/background.jpg');
+    background-color: #000;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    }
+
+a {outline: none; text-decoration: none; color: inherit;}
+button {outline: none;}
+:focus {outline: none;}
+::-moz-focus-inner {border: none;}
+a:focus {outline: none;outline-offset: 0;}
+input:focus, textarea:focus {outline: none;}
+img {width: 100%; display: block;}
+.cf {*zoom: 1;}
+.cf:before,.cf:after {display: table; line-height: 0; content: "";}
+.cf:after {clear: both;}
+
+/*////////// CHROME AUTOFILL BACKGROUND //////////*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {-webkit-box-shadow: 0 0 0 30px rgba(var(--primary), 1) inset !important;}
+
+/*////////// CHROME AUTOFILL TEXT //////////*/
+input:-webkit-autofill {-webkit-text-fill-color: rgba(var(--secondary), 1) !important; border: inherit !important;}
+.browser-firefox input {filter: none !important;}
+
+/*////////// TOUCH SCREEN HOVER //////////*/
+.TouchScreenHover {-webkit-user-select: none; -webkit-touch-callout: none;}
+
+/*/////////////////////////////////*/
+/*///////// GLOBAL MARGINS ////////*/
+/*/////////////////////////////////*/
+.ma-0 {margin: 0 !important;}
+
+/*///////// MARGIN TOP ////////*/
+.mt-0 {margin-top: 0 !important;}
+.mt-1 {margin-top: 5px !important;}
+.mt-2 {margin-top: 10px !important;}
+.mt-3 {margin-top: 15px !important;}
+.mt-4 {margin-top: 20px !important;}
+.mt-5 {margin-top: 25px !important;}
+.mt-6 {margin-top: 30px !important;}
+.mt-7 {margin-top: 35px !important;}
+.mt-8 {margin-top: 40px !important;}
+.mt-9 {margin-top: 45px !important;}
+.mt-10 {margin-top: 50px !important;}
+
+/*///////// MARGIN BOTTOM ////////*/
+.mb-0 {margin-bottom: 0 !important;}
+.mb-1 {margin-bottom: 5px !important;}
+.mb-2 {margin-bottom: 10px !important;}
+.mb-3 {margin-bottom: 15px !important;}
+.mb-4 {margin-bottom: 20px !important;}
+.mb-5 {margin-bottom: 25px !important;}
+.mb-6 {margin-bottom: 30px !important;}
+.mb-7 {margin-bottom: 35px !important;}
+.mb-8 {margin-bottom: 40px !important;}
+.mb-9 {margin-bottom: 45px !important;}
+.mb-10 {margin-bottom: 50px !important;}
+
+/*/////////////////////////////////*/
+/*///////// GLOBAL PADDING ////////*/
+/*/////////////////////////////////*/
+
+/*///////// PADDING TOP ////////*/
+.pt-0 {padding-top: 0 !important;}
+.pt-1 {padding-top: 5px !important;}
+.pt-2 {padding-top: 10px !important;}
+.pt-3 {padding-top: 15px !important;}
+.pt-4 {padding-top: 20px !important;}
+.pt-5 {padding-top: 25px !important;}
+.pt-6 {padding-top: 30px !important;}
+.pt-7 {padding-top: 35px !important;}
+.pt-8 {padding-top: 40px !important;}
+.pt-9 {padding-top: 45px !important;}
+.pt-10 {padding-top: 50px !important;}
+
+/*///////// PADDING BOTTOM ////////*/
+.pb-0 {padding-bottom: 0 !important;}
+.pb-1 {padding-bottom: 5px !important;}
+.pb-2 {padding-bottom: 10px !important;}
+.pb-3 {padding-bottom: 15px !important;}
+.pb-4 {padding-bottom: 20px !important;}
+.pb-5 {padding-bottom: 25px !important;}
+.pb-6 {padding-bottom: 30px !important;}
+.pb-7 {padding-bottom: 35px !important;}
+.pb-8 {padding-bottom: 40px !important;}
+.pb-9 {padding-bottom: 45px !important;}
+.pb-10 {padding-bottom: 50px !important;}
+
+/*/////////////////////////////////*/
+/*////////// TRANSITIONS //////////*/
+/*/////////////////////////////////*/
+
+.TSE {
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+
+.TSE-color {
+    -webkit-transition: color 250ms ease-out;
+    -moz-transition: color 250ms ease-out;
+    -o-transition: color 250ms ease-out;
+    transition: color 250ms ease-out;
+}
+
+.TSE-opacity {
+    -webkit-transition: opacity 250ms ease-out;
+    -moz-transition: opacity 250ms ease-out;
+    -o-transition: opacity 250ms ease-out;
+    transition: opacity 250ms ease-out;
+}
+
+/*/////////////////////////////////*/
+/*////////////// TEXT /////////////*/
+/*/////////////////////////////////*/
+
+.dynCont.center *, .dynCont.center {text-align: center;}
+.dynCont.left *, .dynCont.left {text-align: left;}
+.dynCont.right *, .dynCont.right {text-align: right;}
+
+/*///// TEXT /////*/
+p {color: rgba(var(--secondary), 1); font-size: 1rem; font-family: 'Geneva', sans-serif !important; line-height: 1.6;}
+h1, .kk-h1, h2, .kk-h2, h3, .kk-h3, h4, .kk-h4, h5, .kk-h5 {color: rgba(var(--secondary), 1); font-weight: 400; margin: 0 0 15px 0; display: block;}
+h1, h2, .kk-h1, .kk-h2 {font-size: 1.4rem;}
+h1, .kk-h1 {font-weight: 700;}
+h3, .kk-h3 {font-size: 1.3rem;}
+h4, .kk-h4 {font-size: 1.2rem;}
+h5, .kk-h5 {font-size: 1.1rem;}
+.dynCont p {word-break: break-word;}
+
+/*///// BUTTON GROUP /////*/
+.btnGroup {margin-top: 30px;}
+.btnGroup.flex {display: flex; flex-flow: row wrap;}
+.btnGroup.flex > * {flex: 1;}
+.btnGroup.mw-500, .btnGroup.mw-450, .btnGroup.mw-400 {margin: 0 auto; margin-top: 30px;}
+.btnGroup.mw-500 {max-width: 500px;}
+.btnGroup.mw-450 {max-width: 450px;}
+.btnGroup.mw-400 {max-width: 400px;}
+.btnGroup.center {text-align: center;}
+
+/*///// LISTS /////*/
+.dynCont ul {display: block; margin: 20px 0; padding: 0;}
+.dynCont ul li {font-size: 1rem; font-family: 'Geneva', sans-serif !important; line-height: 1.6; color: rgba(var(--secondary), 1); list-style: none;}
+.dynCont ul li::before {content: '◽️'; display: inline-block; vertical-align: middle; margin-right: 10px;}
+.dynCont ul li.noBullet::before {content: none;}
+
+/*///// FORM /////*/
+.formGroup {display: flex; flex-flow: row wrap;}
+.formGroup .flex-1 {flex: 1;}
+.formGroup .flex-2 {flex: 2;}
+.formGroup .flex-3 {flex: 3;}
+.formGroup .kk-input {min-width: 230px;}
+
+/*/////////////////////////////////*/
+/*///////// FOLDER SECTION ////////*/
+/*/////////////////////////////////*/
+
+.kk-section {position: relative;}
+.kk-section-top {
+    position: relative;
+    border-bottom: 3px solid rgba(var(--secondary), 1);
+    padding: 0 20px 6px 20px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(var(--primary), 1);
+    z-index: 10;
+}
+
+.kk-section-top.noFlex {display: block;}
+.kk-section-top::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    height: 3px;
+    width: 100%;
+    background-color: rgba(var(--secondary), 1);
+}
+
+.kk-section-cont {position: relative; padding: 30px 20px 0 20px;  min-height: 30px;}
+.kk-folder.fixed-section .kk-fakeScroll {top: 44px; height: calc(100% - 44px);}
+.kk-folder.fixed-section .kk-section-top {position: sticky; box-sizing: border-box; width: calc(100% + 35px); top: 0;}
+.kk-section-column {display: flex; flex-flow: row wrap; justify-content: space-between; text-align: left; padding: 10px 0; width: 100%; max-width: 250px;}
+.kk-section-column.mw-350 {max-width: 350px;}
+.kk-section-col {white-space: nowrap; padding-right: 10px; margin: 5px 0;}
+
+/*/////////////////////////////////*/
+/*//////// WALLET CONNECT /////////*/
+/*/////////////////////////////////*/
+
+.walletconnect-modal__base {
+    max-width: 345px !important;
+}
+
+.walletconnect-modal__headerLogo {
+    width: 33% !important;
+}
+
+/*/////////////////////////////////*/
+/*////////     VIDEO      /////////*/
+/*/////////////////////////////////*/
+
+video {
+    margin-top: -11vh;
+}
+
+/*/////////////////////////////////*/
+/*////////     BLINK      /////////*/
+/*/////////////////////////////////*/
+
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+/*/////////////////////////////////*/
+/*//////// WALLET CONNECT /////////*/
+/*/////////////////////////////////*/
+
+.web3modal-modal-card {
+    background-color: rgb(179, 191, 220) !important;
+    width: 80% !important;
+    max-width: 715px !important;
+    min-width: 0px !important;
+    max-height: 71% !important;
+}
+
+.web3modal-provider-container {
+    background-color: rgb(39, 39, 39) !important;
+}
+
+.jYxAGf {
+    z-index: 999 !important;
+}
+
+/*/////////////////////////////////*/
+/*//////// RESPONSIVE FIX /////////*/
+/*/////////////////////////////////*/
+
+div.inner-div {width: 94%; margin: 0 auto;}
+@media(max-width: 900px){
+    div.inner-div {width: 90%;}
+}
+
+.responsive-fix {max-width: 1350px; margin: 0 auto;}
+@media (min-width: 1450px){.responsive-fix-3 {max-width: 1000px;}}
+
+
+.vue3-slider {
+    margin: 18px 0 !important;
+}
+
+.vue3-slider .handle.hover {
+    transform: scale(2) !important;
+    background-color: black !important;
+}
+
+.vue3-slider .track {
+    border: 2px solid black !important;
+}
+
+.vue3-slider .track-filled {
+    top: 2.7px !important;
+}
+
+/*////////////////////////////////////*/
+/*//////// CONNECT TO WALLET /////////*/
+/*////////////////////////////////////*/
+
+.connect-button {
+    height: 0px !important;
+    margin: 25.5px !important; 
+}

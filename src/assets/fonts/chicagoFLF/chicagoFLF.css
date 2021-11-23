@@ -1,0 +1,4 @@
+@font-face {
+    font-family: "ChicagoFLF";
+    src: local("ChicagoFLF"),   url(./ChicagoFLF.ttf) format("truetype");
+}

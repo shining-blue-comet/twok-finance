@@ -1,0 +1,68 @@
+{
+  "name": "twok-moduling",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@toruslabs/torus-embed": "^1.13.2",
+    "@walletconnect/client": "^1.6.6",
+    "@walletconnect/qrcode-modal": "^1.6.6",
+    "@walletconnect/web3-provider": "^1.6.5",
+    "authereum": "^0.1.14",
+    "bignumber.js": "^9.0.1",
+    "core-js": "^3.6.5",
+    "fortmatic": "^2.2.1",
+    "vue": "^3.0.0",
+    "vue3-slider": "^1.6.6",
+    "vuex": "^4.0.2",
+    "web3": "^1.5.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "cache-loader": "^4.1.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "jshint-loader": "^0.8.4",
+    "postcss": "^7.0.36",
+    "script-loader": "^0.7.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14",
+    "vue-cli-plugin-web3modal": "^1.1.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
